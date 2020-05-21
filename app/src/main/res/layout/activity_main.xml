@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root_layout"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#03A9F4"
+        android:layout_margin="5dp"
+        >
+
+
+        <TextView
+            android:id="@+id/form_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#000"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:text="Please help us to collect different symptoms of Covid19 patients by filling the form below:\nकृपया तलको फारम भरेर Covid19  बिरामीहरूको बिभिन्न लक्षणहरू संकलन गर्न हामीलाई मद्दत गर्नुहोस्:"
+            />
+
+        <!-- input 1 -->
+        <TextView
+            android:id="@+id/input_1_question"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textColor="#FF0000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="1. Do you feeling difficulty in breathing.\n१. के तपाईंलाई सास फेर्न गाह्रो भइरहेको छ?\n"
+            />
+
+        <EditText
+            android:id="@+id/input_1_answer"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="yes or no (हो वा होईन)"
+            android:inputType="text"
+            android:textSize="24sp"
+            android:singleLine="true"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:background="#FFFFFF"
+            />
+
+
+        <!-- input 2 -->
+        <TextView
+            android:id="@+id/input_2_question"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textColor="#FF0000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="2. What is your age?\n२. तपाइकाे उमेर कति हाे।"
+            />
+
+        <EditText
+            android:id="@+id/input_2_answer"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="eg: 59 (उदाहरण: 59)"
+            android:inputType="number"
+            android:textSize="24sp"
+            android:singleLine="true"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:background="#FFFFFF"
+            />
+
+
+
+
+        <!-- input 3 -->
+        <TextView
+            android:id="@+id/input_3_question"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textColor="#FF0000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="3. How long have you been feeling symptoms?\n3. तपाईले कहिलेदेखि लक्षणहरू महसुस गरिरहनु भएको छ?"
+            />
+
+        <EditText
+            android:id="@+id/input_3_answer"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="eg: 10 (उदाहरण: 10)"
+            android:inputType="number"
+            android:textSize="24sp"
+            android:singleLine="true"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:background="#FFFFFF"
+            />
+
+
+
+        <!-- input 4-->
+        <TextView
+            android:id="@+id/input_4_question"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textColor="#FF0000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="4. Record your breathing sound without extra surroundings noise.\n4. अतिरिक्त साउन्डिंग आवाज बिना तपाईंको सासको ध्वनि रेकर्ड गर्नुहोस्।"
+            />
+
+
+        <TextView
+            android:id="@+id/input_4_answer_tv"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+
+
+
+         <Button
+             android:id="@+id/input_4_answer_btn"
+             android:layout_width="match_parent"
+             android:layout_height="100dp"
+             android:text="Start Recording\n(रेकर्डि सुरू गर्नुहोस्)"
+             android:textSize="24dp"
+             android:textAllCaps="false"
+             android:textColor="#000000"
+             android:textStyle="bold"
+             android:background="#FFFFFF"
+
+             />
+
+
+
+
+
+
+
+        <!-- submit button-->
+        <Button
+            android:id="@+id/input_form_submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/submitBackground_disabled"
+            android:elevation="4dp"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:text="Submit\n(बुझाउनुहोस्)"
+            android:enabled="false"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="60dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

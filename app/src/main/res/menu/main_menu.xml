@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/privacyPolicy"
+        android:title="Privacy Policy"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/termsAndService"
+        android:title="Terms and conditions"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/share"
+        android:title="share with friends"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/exit"
+        android:title="exit"
+        app:showAsAction="never"/>
+</menu>

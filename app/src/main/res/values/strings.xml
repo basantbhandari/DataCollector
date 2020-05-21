@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Covid19Check</string>
+    <string name="title_activity_sha1key">Map</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
