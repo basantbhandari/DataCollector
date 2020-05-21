@@ -23,7 +23,7 @@ Based on these characteristics, we will build classification model (prediction) 
 * data will used only for research work.
 
 
-# output of this app on android as:
+# Output of this app on android as:
 
 ![screenshot 1](/Screenshots/Screenshot_20200521-173713.png)
 ![screenshot 2](/Screenshots/Screenshot_20200521-173718.png)
