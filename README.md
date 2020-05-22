@@ -1,4 +1,4 @@
-# Covid19Check
+# DataCollector
 Data collection android app to classify either a person is corona positive or negative(probability) based on their characteristics specially breathing audio sound
 Collects Corona virus-infected patients properties to make a classification AI.
 
